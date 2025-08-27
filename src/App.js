@@ -20,6 +20,7 @@ const generateContent = async (prompt) => {
   });
 };
 
+
 // Main App Component
 export default function App() {
   const [selectedTemplate, setSelectedTemplate] = useState(null);
@@ -36,7 +37,7 @@ export default function App() {
     { id: 'ecomm2', name: 'Luxury Goods Store', category: 'E-Commerce', preview: 'https://placehold.co/400x300/1a202c/ffffff?text=Luxury+E-Comm' },
     { id: 'business2', name: 'Startup Landing Page', category: 'Business', preview: 'https://placehold.co/400x300/4a5568/ffffff?text=Startup' },
     { id: 'blog2', name: 'Travel Journal', category: 'Blog', preview: 'https://placehold.co/400x300/718096/ffffff?text=Travel+Blog' },
-    { id: 'portfolio2', name: "Photographer's Gallery", category: 'Portfolio', preview: 'https://placehold.co/400x300/2d3748/ffffff?text=Photography' },
+    { id: 'portfolio2', name: 'Photographer\'s Gallery', category: 'Portfolio', preview: 'https://placehold.co/400x300/2d3748/ffffff?text=Photography' },
     // Add 12 more templates to reach 20
     { id: 'ecomm3', name: 'Gadget Shop', category: 'E-Commerce', preview: 'https://placehold.co/400x300/1a202c/ffffff?text=Gadgets' },
     { id: 'business3', name: 'Consulting Firm', category: 'Business', preview: 'https://placehold.co/400x300/4a5568/ffffff?text=Consulting' },
